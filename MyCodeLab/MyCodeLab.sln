@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyIndicatorLab", "BusyIndicatorLab\BusyIndicatorLab.csproj", "{24889F3C-0959-40BD-B224-7FF5640F5CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRC校验", "CRC校验\CRC校验.csproj", "{FC611C32-3881-4240-AE1A-D7B665909A1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24889F3C-0959-40BD-B224-7FF5640F5CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24889F3C-0959-40BD-B224-7FF5640F5CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24889F3C-0959-40BD-B224-7FF5640F5CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24889F3C-0959-40BD-B224-7FF5640F5CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1B9DF2E-82D1-4744-BD4F-9F5105894118}
+	EndGlobalSection
+EndGlobal
