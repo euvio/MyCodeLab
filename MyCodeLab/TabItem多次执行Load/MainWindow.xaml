@@ -1,0 +1,28 @@
+﻿<Window Title="MainWindow"
+        x:Class="TabItem多次执行Load.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TabItem多次执行Load"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="800"
+        Height="450"
+        mc:Ignorable="d">
+    <Grid>
+        <TabControl>
+            <TabItem x:Name="TabItem1"
+                     Header="   1   "
+                     IsVisibleChanged="TabItem1_OnIsVisibleChanged"
+                     Loaded="TabItem1_OnLoaded"
+                     Unloaded="TabItem1_OnUnloaded">
+                <Button Width="100"
+                        Height="30"
+                        Content="Hello WPF" />
+            </TabItem>
+            <TabItem x:Name="TabItem2" Header="   2   " />
+            <TabItem x:Name="TabItem3"
+                     Header="   3   "
+                     IsSelected="True" />
+        </TabControl>
+    </Grid>
+</Window>

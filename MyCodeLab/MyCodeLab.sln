@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyIndicatorLab", "BusyInd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRC校验", "CRC校验\CRC校验.csproj", "{FC611C32-3881-4240-AE1A-D7B665909A1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{0A5A7084-A4B6-4D45-87DB-D6FD56569670}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TabItem多次执行Load", "TabItem多次执行Load\TabItem多次执行Load.csproj", "{5B22D683-7E96-4952-9979-D53940250DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "绑定失败案例分析", "绑定失败案例分析\绑定失败案例分析.csproj", "{0EDC7EB1-BC2E-47B7-B673-55A60325BE3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "事件转命令", "事件转命令\事件转命令.csproj", "{11734F3D-573A-4C25-B6AA-0D128D9FA2C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +29,26 @@ Global
 		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC611C32-3881-4240-AE1A-D7B665909A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B22D683-7E96-4952-9979-D53940250DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B22D683-7E96-4952-9979-D53940250DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B22D683-7E96-4952-9979-D53940250DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B22D683-7E96-4952-9979-D53940250DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDC7EB1-BC2E-47B7-B673-55A60325BE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDC7EB1-BC2E-47B7-B673-55A60325BE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDC7EB1-BC2E-47B7-B673-55A60325BE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDC7EB1-BC2E-47B7-B673-55A60325BE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11734F3D-573A-4C25-B6AA-0D128D9FA2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11734F3D-573A-4C25-B6AA-0D128D9FA2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11734F3D-573A-4C25-B6AA-0D128D9FA2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11734F3D-573A-4C25-B6AA-0D128D9FA2C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B22D683-7E96-4952-9979-D53940250DAC} = {0A5A7084-A4B6-4D45-87DB-D6FD56569670}
+		{0EDC7EB1-BC2E-47B7-B673-55A60325BE3F} = {0A5A7084-A4B6-4D45-87DB-D6FD56569670}
+		{11734F3D-573A-4C25-B6AA-0D128D9FA2C6} = {0A5A7084-A4B6-4D45-87DB-D6FD56569670}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1B9DF2E-82D1-4744-BD4F-9F5105894118}
