@@ -11,7 +11,7 @@
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
-    <Grid>
+    <Grid x:Name="grid">
         <StackPanel>
             <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Items}">
                 <DataGrid.Columns>
